@@ -13,6 +13,7 @@ function App() {
 
 	const addItem = item => {
 		//spreading cart makes a copy
+		//cart + item
 		setCart([...cart, item])
 	};
 
